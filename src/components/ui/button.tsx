@@ -19,6 +19,7 @@ const StyledButton = styled.button<{ $variant?: string; $size?: string }>`
   font-weight: 500;
   transition: colors 0.2s;
   outline: none;
+  cursor: pointer;
 
   &:focus-visible {
     outline: none;
