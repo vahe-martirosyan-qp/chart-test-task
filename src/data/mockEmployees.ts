@@ -1,0 +1,68 @@
+import type { Employee } from '../types/employee';
+
+export const mockEmployees: Employee[] = [
+  {
+    id: '1',
+    name: 'John Doe',
+    email: 'john.doe@example.com',
+    age: 32,
+    department: 'Engineering',
+    status: 'active',
+  },
+  {
+    id: '2',
+    name: 'Jane Smith',
+    email: 'jane.smith@example.com',
+    age: 28,
+    department: 'Marketing',
+    status: 'active',
+  },
+  {
+    id: '3',
+    name: 'Bob Johnson',
+    email: 'bob.johnson@example.com',
+    age: 45,
+    department: 'Sales',
+    status: 'active',
+  },
+  {
+    id: '4',
+    name: 'Alice Williams',
+    email: 'alice.williams@example.com',
+    age: 35,
+    department: 'Engineering',
+    status: 'inactive',
+  },
+  {
+    id: '5',
+    name: 'Charlie Brown',
+    email: 'charlie.brown@example.com',
+    age: 29,
+    department: 'HR',
+    status: 'active',
+  },
+  {
+    id: '6',
+    name: 'Diana Prince',
+    email: 'diana.prince@example.com',
+    age: 31,
+    department: 'Marketing',
+    status: 'active',
+  },
+  {
+    id: '7',
+    name: 'Edward Norton',
+    email: 'edward.norton@example.com',
+    age: 38,
+    department: 'Sales',
+    status: 'inactive',
+  },
+  {
+    id: '8',
+    name: 'Fiona Apple',
+    email: 'fiona.apple@example.com',
+    age: 27,
+    department: 'Engineering',
+    status: 'active',
+  },
+];
